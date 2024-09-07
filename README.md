@@ -16,12 +16,8 @@ A simple full-stack application that allows users to manage a list of tasks with
 1. [Features](#features)
 2. [Tech Stack](#tech-stack)
 3. [Setup Instructions](#setup-instructions)
-   - [Frontend (React.js)](#frontend-reactjs)
-   - [Backend (Node.js + Express.js)](#backend-nodejs--expressjs)
 4. [API Endpoints](#api-endpoints)
-5. [Deployment](#deployment)
-6. [Environment Variables](#environment-variables)
-7. [Additional Notes](#additional-notes)
+5. [Additional Notes](#additional-notes)
 
 ## Features
 
@@ -38,10 +34,43 @@ A simple full-stack application that allows users to manage a list of tasks with
 - **Deployment**: Heroku, Netlify
 
 ## Setup Instructions
+1. Install all the dependencies
 
-### Frontend (React.js)
+   ```sh
+   npm run install
+   ```
 
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/yourusername/task-manager-app.git
-   cd task-manager-app/frontend
+2. Start the frontend
+
+   ```sh
+   npm start
+   ```
+   
+3. Go to http://localhost:3000
+
+4. Start the Backend: Firt go into the backend folder of this Fullstack app
+    ```sh
+   cd ../backend
+   ```
+5. Now Start The backend server:
+   ```sh
+   node index.js
+   ```
+
+## API Endpoints:
+
+**Task Management**
+
+**1.** GET /tasks: Fetch all tasks.
+
+**2.** POST /tasks: Add a new task.
+
+
+**Authentication**
+
+**1.** POST /register: Register a new user.
+
+**2.** POST /login: Authenticate a user and receive a token.
+
+
+
