@@ -17,8 +17,6 @@ A simple full-stack application that allows users to manage a list of tasks with
 2. [Tech Stack](#tech-stack)
 3. [Setup Instructions](#setup-instructions)
 4. [API Endpoints](#api-endpoints)
-5. [Additional Notes](#additional-notes)
-
 ## Features
 
 - Manage tasks (create, read).
